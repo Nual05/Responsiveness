@@ -66,9 +66,18 @@ header h1 {
 }
 
 @media screen and (max-width: 1280px){
-    .menu-list{
-        display: none;
+    .burger{
+        width: 10px;
+        padding:5px;
+        border-bottom: 5px solid black;
+        border-top: 5px solid black;
+        float:right;
     }
+    .menu-list{
+        display:none;
+    }
+
+  
     section.round-white-box.main-flexbox{
         display:flex;
         flex-wrap: wrap;
